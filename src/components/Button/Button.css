@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+:root {
+    --button-disabled-color: #9E9E9E;
+    --button-disabled-background: #E0E0E0;
+  }
+
+/*DEFAULT COLOR*/
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--button-background);
+    border-radius: 6px;
+    background: var(--button-background);
+    box-shadow: var(--button-shadow);
+    cursor: pointer;
+    transition: all 0.1s linear;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform:capitalize;
+    color: var(--button-color);
+}
+
+.button:hover, .button:focus{
+    background-color: var(--button-background-hover-dark);
+}
+
+.button--variant-outline {
+    color: var(--button-background);
+    border-color: var(--button-background);
+    box-shadow: var(--button-shadow);
+    background-color: transparent;
+}
+
+.button--variant-outline:hover, .button--variant-outline:focus{
+    background: var(--button-background-hover-light);
+}
+
+.button--variant-text {
+    color: var(--button-background);
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: 0px 2px 3px transparent;
+}
+
+.button--variant-text:hover, .button--variant-text:focus{
+    background:  var(--button-background-hover-light);
+    border-color:  var(--button-background-hover-light);
+}
+
+.button--size-sm{
+    padding: 6px 12px;
+}
+
+.button--size-lg{
+    padding: 11px 22px;
+}
+
+.button--no-shadow{
+    box-shadow: unset;
+}
+
+.button--color-default{
+    --button-color: #3F3F3F;
+    --button-background: #E0E0E0;
+    --button-background-hover-dark: #AEAEAE;
+    --button-background-hover-light: #AEAEAE;
+    --button-shadow: 0px 2px 3px #AEAEAE40;
+}
+
+/*PRIMARY COLOR*/
+.button--color-primary{
+    --button-color: #fff;
+    --button-background: #2962FF;
+    --button-background-hover-dark: #0039CB;
+    --button-background-hover-light: #2962FF30;
+    --button-shadow: 0px 2px 3px #2962FF40;
+}
+
+/*SECONDARY COLOR*/
+.button--color-secondary{
+    --button-color: #fff;
+    --button-background: #455A64;
+    --button-background-hover-dark: #1C313A;
+    --button-background-hover-light: #455A6430;
+    --button-shadow: 0px 2px 3px #455A6440;
+}
+
+/*DANGER COLOR*/
+.button--color-danger{
+    --button-color:#ffffff;
+    --button-background: #D32F2F;
+    --button-background-hover-dark: #9A0007;
+    --button-background-hover-light: #D32F2F30;
+    --button-shadow: 0px 2px 3px #D32F2F40;
+}
+
+.button--disabled{
+    background: var(--button-disabled-background);
+    border-color: var(--button-disabled-background);
+    color: var(--button-disabled-color);
+    cursor: unset;
+    box-shadow: unset;
+}
+
+.button--disabled:hover, .button--disabled:focus{
+    background-color: var(--button-disabled-background);
+}
+
+.button--variant-outline-disabled {
+    color: var(--button-disabled-color);
+    border-color: var(--button-disabled-color);
+    box-shadow: unset;
+    background-color: transparent;
+    cursor: unset;
+}
+
+.button--variant-outline-disabled:hover, .button--variant-outline-disabled:focus{
+    background: transparent;
+}
+
+.button--variant-text-disabled {
+    color: var(--button-disabled-color);
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: unset;
+    cursor: unset;
+}
+
+.button--variant-text-disabled:hover, .button--variant-text-disabled:focus{
+    background: transparent;
+    border-color: transparent;
+}
