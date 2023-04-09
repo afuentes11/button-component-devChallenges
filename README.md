@@ -37,11 +37,6 @@
 
 ## Overview
 
-<div align="center">
-   <img src="https://github.com/afuentes11/portfolio-devChallenges/blob/master/gif/desktop.gif" alt="desktop gif" width="70.5%" />
-   <img src="https://github.com/afuentes11/portfolio-devChallenges/blob/master/gif/mobile.gif" alt="mobile gif" width="25%" />
-</div>
-
 The project consists in the creation of my own portfolio to show all the projects developed to complete the challenges of devchallenges or personal projects. [The original design](https://www.figma.com/file/O7Omgz2iVR7Vox7shf7O8e?chrome=DOCUMENTATION&embed_host=astra&kind=&node-id=0%3A1&viewer=1) was provided by Devchallenges in the challenge.
 
 The page can be viewed at the following [link](https://andresfuentesmartinez-e887a.firebaseapp.com/). If you liked the project, give me a star ⭐.
@@ -67,7 +62,7 @@ As for the functionality of the portfolio, I used the getElementBy method, in or
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
 
 - User story: I can see different button types: default, outline and text
 - User story: I can choose to disable box-shadow
