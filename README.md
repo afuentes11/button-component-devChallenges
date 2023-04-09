@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://buttoncomponentdev.web.app/?path=/docs/example-button--docs">
+    <a href="https://buttoncomponentdev.web.app/">
       Demo
     </a>
     <span> | </span>
