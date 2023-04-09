@@ -37,19 +37,21 @@
 
 ## Overview
 
-The project consists in the creation of my own portfolio to show all the projects developed to complete the challenges of devchallenges or personal projects. [The original design](https://www.figma.com/file/O7Omgz2iVR7Vox7shf7O8e?chrome=DOCUMENTATION&embed_host=astra&kind=&node-id=0%3A1&viewer=1) was provided by Devchallenges in the challenge.
+The following button is the result of the development of the Button component challenge from devChallenges. the challenge consisted in developing a reusable Button that follows the following user stories.
 
-The page can be viewed at the following [link](https://andresfuentesmartinez-e887a.firebaseapp.com/). If you liked the project, give me a star ⭐.
+The page can be viewed at the following [link](https://buttoncomponentdev.web.app/). If you liked the project, give me a star ⭐.
 
-In the development of the project, initially I wanted to learn a technology that would allow me to automate the generation of the build folder and all the files it contains for the page to work, as technology I chose Gulp because it is simple to implement and is useful for small projects. I also wanted to improve my way of naming all my HTML classes, and I opted for the BEM methodology, this helped me a lot to improve the organization of my CSS code, to the point of being more maintainable.
+The project enabled me to set aside my prior knowledge of React and to broaden my understanding of the library and its functions. While the initial challenge was to reacquaint myself with the framework, as I began programming, everything flowed smoothly until each user story was completed.
 
-As for the functionality of the portfolio, I used the getElementBy method, in order to improve my JS skills without libraries.
+Furthermore, the project allowed me to learn about Storybook, a powerful tool, its functionalities, and potential use cases. This tool is valuable because it facilitates testing of each component developed in the project and identifies its respective properties.
+
+Overall, I was able to enhance my technology stack with useful tools for the workplace, and I strengthened my foundational skills in development, such as the pillars of HTML, CSS, and JS, as well as implementing best practices and methodologies, such as BEM, that promote organization.
 
 
 ### Built With
 
-- [React with vite]
-- [Storybook]
+- [React with vite](https://vitejs.dev/guide/)
+- [Storybook](https://storybook.js.org/)
 - JS
 - NodeJS
 - CSS
@@ -80,16 +82,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/afuentes11/portfolio-devChallenges.git
+$ git clone https://github.com/afuentes11/button-component-devChallenges.git
 
 # Install dependencies
 $ npm install
 
-# Generate the build folder with the minified files and activate a server with browserSync.
-$ npm run start
+# Starts a local server that displays the project page. Useful if you are going to make changes to the component.
+$ npm run dev
 
-# Reduce the size of the images and generate the images in .webp and .avif format to have images with smaller size.
-$ npm run img
+# Starts a local server for the project storybook
+$ npm run storybook
 
 ```
 
@@ -97,11 +99,8 @@ $ npm run img
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
-- [ANIMISTA](https://animista.net/play/attention/jello/jello-horizontal)
-- [UIVERSE](https://uiverse.io/all)
-- [Introduction to sass](https://www.youtube.com/watch?v=kaSVabk-jbA)
-- [Gulp](https://gulpjs.com/docs/en/getting-started/javascript-and-gulpfiles/)
-- [BEM](https://getbem.com/)
+- [Curso de React [2023]: De cero hasta crear tus primeros componentes con estado](https://www.youtube.com/watch?v=7iobxzd_2wY&t=2820s)
+- [Como empezar a usar Storybook](https://www.youtube.com/watch?v=qNxpWRExlds)
 
 
 ## Contact
